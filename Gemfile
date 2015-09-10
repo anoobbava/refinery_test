@@ -6,9 +6,6 @@ gem 'autoprefixer-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
-group :production, :staging do
-  gem "pg"
-end
 
 group :development, :test do
   gem "sqlite3"
